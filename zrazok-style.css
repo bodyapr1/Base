@@ -1,0 +1,40 @@
+body {
+    font-family: 'Comfortaa';
+    background-color: #c1d9f6;
+    padding: 20px;
+    }
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info_table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.info_table th, .info_table td {
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    border-color: rgb(0, 76, 134);
+}
+
+.image {
+    max-width: 400px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
